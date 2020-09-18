@@ -2,11 +2,11 @@
 #  
 
 def times_3(number):
-    product = number * 3
+    product = int(number) * 3
     return product
 
 
 if __name__ == '__main__':
 
-    x = int(input("Enter a number: "))
+    x = input("Enter a number: ")
     print(times_3(x))
